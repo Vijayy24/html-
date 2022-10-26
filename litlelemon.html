@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 20%;
+            border-radius: 110px;
+        }
+        #heading{
+            width:500px;
+            margin: 0 auto;
+            
+            text-align: center;
+            border-radius: 10px;
+            text-shadow: 3px 2px 3px;
+        }
+        h1{
+            margin: auto;
+            text-align: center;
+            color: darkblue;
+        }
+        #hr1{
+            border: 10px solid rgb(3, 16, 50);
+            border-radius: 5px;
+            
+        }
+        #ulid1{
+            background-color: darkgrey;
+            height: 50px;
+        }
+        li{
+            display: inline-block;
+            width: 100px;
+            height: 50px;
+            padding: 10px;
+            color: blueviolet;
+        }
+        a{
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 id="heading">This is our heading</h1>
+        <img src="vjlogo1.jpg" alt="" width="200" height="200">
+    </header>
+    <hr id="hr1">
+<nav>
+    <ul id="ulid1">
+        <li><a href="html\index.html">Index</a></li>
+        <li><a href="basicForm.html">Location</a></li>
+        <li><a href="JobapplictionForm.html">Job </a></li>
+    </ul>
+</nav>
+<div>
+      
+    <form>
+        <div>
+          <label for="rating">Rating</label>
+          <input type="range" min="1" max="5" id="rating" name="rating" list="ratings">
+          <datalist id="ratings">
+              <option value="1" label="1"></option>
+              <option value="2"></option>
+              <option value="3"></option>
+              <option value="4"></option>
+              <option value="5" label="5"></option>
+          </datalist>
+        </div>
+        <button type="submit">Submit Rating</button>
+      </form>
+</body>
+</html>

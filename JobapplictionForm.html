@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>job appliction form</title>
+</head>
+<body>
+    <h1>Job Application Form</h1>
+    <hr>
+
+   <form enctype="multipart/form-data"  action="">
+    <p><label for="">Your Name:</label></p>
+    <input type="text"name ="UserName" placeholder="Enter your name">
+    <p><label for="">Your Education qulification :</label></p>
+    <select name="EduQulification" id="">
+        <option value="B.E">B.E</option>
+        <option value="B.Tech">B.Tech</option>
+        <option value="B.C.A">B.C.A</option>
+        <option value="B.Sc">B.Sc</option>        
+    </select>
+    <br>
+    <p><label for="">Apply for:</label></p>
+    <Select>
+        <option value="Front End Developer">Front End Developer</option>
+        <option value="Backend End Developer">Back End Developer</option>
+        <option value="Full Stack Developer">Full Stack Developer</option>
+    </Select>
+    <p>Your Resume: <br>
+    <input type="file"> </p>
+    <p><input type="submit"value ="send Deatails" name="submit"></p> 
+    <br>
+    <label for="price">Price Range:</label>
+   <input type="range" name="price" id="price" min="0" max="100" value="40" oninput = this.nextElemtSibling.value this.value>
+    <output>40</output>
+   <datalist id="tickmarks">
+    <option value="0" label="very cold!"></option>
+    <option value="25" label="cool"></option>
+    <option value="50" label="medium"></option>
+    <option value="75" label="getting warm!"></option>
+    <option value="100" label="hot!"></option>
+  </datalist>
+  <br>
+  <label for="time">Fix the Time :</label>
+  <input type="time" id="time" value="time">
+  
+   </form>
+   <br>
+   </body>
+</html>
